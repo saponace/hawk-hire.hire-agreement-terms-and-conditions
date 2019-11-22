@@ -1,0 +1,7 @@
+.idea/
+*.iml
+
+private-variables.gs
+
+.clasp.dev.json
+.clasp.production.json
