@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base target="_top">
+</head>
+<body>
+<form id="myForm" onsubmit="event.preventDefault(); google.script.run.sendAgreementForm(this); google.script.host.close()">
+    Send email to:<br>
+    <select name="emailAddress">
+        <option value=""></option>
+        <option value="saponace@gmail.com">Dave</option>
+        <option value="saponace@gmail.com">Helene (Testing)</option>
+    </select>
+    <br>
+    <input type="Submit" value="Save and send">
+</form><br>
+<input type="button" value="Cancel" onclick="google.script.host.close()" />
+</body>
+</html>
